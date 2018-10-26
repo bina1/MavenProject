@@ -4,12 +4,18 @@
   <artifactId>Maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven</name>
+  
   <dependencies>
-  	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-java</artifactId>
-	    <version>3.14.0</version>
-	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>3.14.0</version>
+  	</dependency>
+
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.14.3</version>
+  	</dependency>
   </dependencies>
 </project>
